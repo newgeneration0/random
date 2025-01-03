@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        body{
+            background-color: beige;
+        }
+        form{
+            width: 600px;
+            height: 700px;
+            border: 2px solid beige;
+            margin: auto;
+            box-shadow: 4px 4px 10px;
+            padding: 15px;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 15px;
+            font-size: 30px;
+            text-shadow: 2px 2px 10px;
+            font-weight: bolder;
+        }
+        label{
+            font-size: 17px;   
+        }
+        .text{
+            width: 500px;
+            padding: 10px;
+            margin: 10px 5px;
+            border: 1px solid white;
+            border-radius: 5px;
+        }
+        #radio{
+            margin: 10px 5px;
+        }
+        span{
+            font-size: 15px;
+        }
+        #comment{
+            width: 500px;
+            height: 50px;
+            padding: 10px;
+            border: 1px solid white;
+            border-radius: 5px;
+            margin: 10px 5px;
+        }
+        select{
+            width: 500px;
+            padding: 10px;
+            border: 1px solid white;
+            border-radius: 5px;
+            margin: 0 0 0 5px
+        }
+        .button{
+            text-align: center;
+        }
+        #button{
+            width: 150px;
+            padding: 8px;
+            font-size: 15px;
+            text-align: center;
+            border: 1px solid black;
+            background-color: beige;
+            color: black;
+            border-radius: 5px;
+        }
+        #button:hover{
+            background-color: beige;
+            box-shadow: 2px 2px 10px black;
+            font-weight: bolder;
+        }
+        ::placeholder{
+            color: rgba(0, 0, 0, 0.263);
+        }
+    </style>
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <form action="" method="post">
+        <div>
+            <label for="name">Name</label><br>
+            <input class="text" type="text" name="Name" id="name" placeholder="Enter your Name">
+        </div><br>
+        <div>
+            <label for="password">Password</label><br>
+            <input class="text" type="password" name="Password" id="password" placeholder="Enter your Password">
+        </div><br>
+        <div>
+            <label for="email">Email</label><br>
+            <input class="text" type="email" name="Email" id="email" placeholder="Enter your Email Address">
+
+        </div><br>
+        <div>
+            <label for="">Gender</label><br>
+            <input type="radio" name="Gender" id="radio" value="Male"><span>Male</span>
+            <input type="radio" name="Gender" id="" value="Female"><span>Female</span>
+        </div><br>
+        <div>
+            <select name="Language" id="">
+                <option value="0">Select your Favourite Language</option>
+                <option value="C">C</option>
+                <option value="C++">C++</option>
+                <option value="CSS">CSS</option>
+                <option value="Bootstrap">Bootstrap</option>
+                <option value="HTML">HTML</option>
+            </select>
+        </div><br>
+        <div>
+            <select name="" id="">
+                <optgroup>
+                    <option value="0">Choose your City</option>
+                </optgroup>
+                <optgroup label="Rajasthan">
+                    <option value="Jaipur">Jaipur</option>
+                    <option value="Ajmer">Ajmer</option>
+                </optgroup>
+                <optgroup label="Delhii">
+                    <option value="New delhi">New delhi</option>
+                    <option value="Delhi">Delhi</option>
+                </optgroup>
+            </select>
+        </div><br>
+        <div>
+            <label for="comment">Comment</label><br>
+            <textarea maxlength="100" name="Comment" id="comment" cols="30" rows="4" placeholder="Enter your Comment"></textarea>
+        </div><br>
+        <div class="button">
+            <input type="submit" value="Submit" id="button">
+        </div>
+    </form>
+
+    <!-- form tag is used to create interactive forms on web pages -->
+
+    <!-- the method attribute is use specify the method of data submission and it either GET or POST-->
+
+    <!-- buttton, submit, text, email, password,  -->
+
+</body>
+</html>

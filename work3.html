@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        section{
+            width: 100%;
+            height: 100vh;
+            background-color: beige;
+            background-size: cover;
+            
+        }
+        #leftbox{
+            width: 50%;
+            height: 100%;
+            float: left;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+        #content{
+            color: black;
+            background: rgba(0, 0, 0, 0.125);
+            padding: 40px;
+        }
+        #content:hover{
+            background: rgba(0, 0, 0, 0.306);
+        }
+        h1{
+            font-size: 45px;
+        }
+        p{
+            padding: 10px 0;
+            margin: 0; 
+            font-size: 20px;
+        }
+        #event{
+            width: 50%;
+            height: 100%;
+            float: right;
+            background: rgba(0, 0, 0, 0.309);
+            box-sizing: border-box;
+
+        }
+        ul{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            margin: 0;
+            padding-inline-start: 40px;
+            box-sizing: border-box;
+        }
+        li{
+            list-style: none;
+            background: white;
+            box-sizing: border-box;
+            height: 200px;
+            margin: 15px o;
+        }
+        .time{
+            background: black;
+            float: left;
+            width: 30%;
+            box-sizing: border;
+            height: 100%;
+            color: white;
+            text-align: center;
+            position: relative;
+            padding: 20px;
+        }
+        h2{
+           margin: 0;
+           padding: 0;
+           position: absolute;
+           top: 50%; 
+           left: 50%;
+           transform: translate(-50%, -50%);
+           line-height: 30px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <section>
+        <div id="leftbox">
+            <div id="content">
+                <h1>EVENT AND SHOWS</h1>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate hic illo iure ut natus quisquam autem fugiat! Fuga maiores omnis doloribus minus quam impedit a accusantium laborum laboriosam suscipit possimus dolore soluta perferendis odit natus eveniet reprehenderit porro facilis nemo nihil rerum, voluptatum quidem expedita! Dolore neque officia dignissimos consequatur vero expedita repudiandae. Repellendus illum fugit laudantium ex iste quibusdam! Perspiciatis ad, sint maiores officia magni distinctio tempore corporis repudiandae facere accusantium libero temporibus dolorum. Pariatur laborum minima tempora eveniet.</P>
+            </div>
+        </div>
+        <div id="event">
+            <ul>
+                <li>
+                    <div class="time">
+                        <h2>15 <br><span>March</span></h2>
+                    </div>
+                    <div class="detail">
+                        <h3>where is the event happening</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum illo velit, fuga perspiciatis voluptatem dolorem ipsam illum ea cumque ab?</p>
+                        <a href="#">view details</a>
+                    </div>
+                </li>
+                <li>
+                    <div >
+                        <h4>27 <br><span>May</span></h4>
+                    </div>
+                    <div>
+                        <h5>where is the event happening</h5>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident tenetur odit, deserunt, reiciendis nostrum fugit autem alias at, modi assumenda odio. Sequi, neque consequuntur. Consectetur at laudantium dolores autem et?</p>
+                        <a href="#">view details</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <h6>12 <br><span>august</span></h6>
+                    </div>
+                    <div>
+                        <h6>where is the event happening</h6>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium fugiat iusto provident ullam, itaque libero quo odit adipisci reiciendis quasi explicabo impedit in doloribus reprehenderit molestiae consequatur minima, eos nemo.</p>
+                        <a href="#">view details</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SURVEY FORM</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        #form{
+            width: 600px;
+            background-color: white;
+            border: 3px solid white;
+            padding: 20px 20px;
+            margin: 30px auto;
+            box-shadow: 2px 2px 15px black;
+
+        }
+        .general{
+            text-align: left;
+            
+        }
+        #label{
+            width: 95%;
+            height: 40px;
+            margin-top: 10px;
+            border: 1px solid black;
+            padding: 5px;
+            display: block;
+
+        }
+        #head{
+            font-size: 35px;
+            text-shadow: 5px 5px 30px;
+        }
+        #submit{
+            width: 100%;
+            text-align: center;
+            background-color: aquamarine;
+            font-size: 18px;
+            border-radius: 13px;
+            display:block ;
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+        #checkbox{
+           display: inline-block;
+           width: auto;
+        }
+        #textarea{
+            width: 95%;
+            height: 100px;
+            margin-top: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1 id="head">RAMDOM SURVEY FORM</h1>
+    <form id="form" method="post">
+    <div class="general">
+        <label for="name">Name </label> <br>
+        <input type="text" name="Name" id="label" placeholder="Enter your name ">
+    </div><br>
+    <div class="general">
+        <label for="email">Email </label> <br>
+        <input type="email" name="email" id="label" placeholder="Enter your email address ">
+    </div><br>
+    <div class="general">
+        <label for="age">Age</label> <br>
+        <input type="text" name="age" id="label" placeholder="enter your age">
+    </div><br>
+    <div class="general">
+        <label for="description">what option best describe you?</label><br>
+        <select name="" id="label">
+            <option value="Employed">Employed</option>
+            <option value="Unemployed">Unemployed</option>
+            <option value="Student">Student</option>
+            <option value="Self-employed">Self-employed</option>
+            <option value="Others">Others</option>
+        </select>
+    </div><br>
+    <div class="general">
+        <label for="">would you recommend RandomSurveyForm to a friend?</label><br>
+        <input type="radio" name="recommend" id="checkbox" value="Yes">Yes <br>
+        <input type="radio" name="recommend" id="checkbox" value="No">No <br>
+        <input type="radio" name="recommend" id="checkbox" value="Maybe">Maybe
+    </div><br>
+    <div class="general"> 
+        <label for="">Languages and Frameworks known (check all that apply)</label> <br>
+        <input type="checkbox" name="Languages&Frameworks" id="checkbox" value="C">C <br>
+        <input type="checkbox" name="Languages&Frameworks" id="checkbox" value="C++">C++ <br>
+        <input type="checkbox" name="Languages&Frameworks" id="checkbox" value="C#">C# <br>
+        <input type="checkbox" name="Languages&Frameworks" id="checkbox" value="Python">Python <br>
+        <input type="checkbox" name="Languages&Frameworks" id="checkbox" value="Java">Java <br>
+        <input type="checkbox" name="Languages&Frameworks" id="checkbox" value="JavaScript">JavaScript <br>
+        <input type="checkbox" name="Languages&Frameworks" id="checkbox" value="HTML">HTML <br>
+        <input type="checkbox" name="Languages&Frameworks" id="checkbox" value="React">React <br>
+        <input type="checkbox" name="Languages&Frameworks" id="checkbox" value="Angular">Angular <br>
+        <input type="checkbox" name="Languages&Frameworks" id="checkbox" value="spring">spring <br>
+        <input type="checkbox" name="Languages&Frameworks" id="checkbox" value="none">none <br>
+        
+    </div><br>
+<div class="general">
+    <label for="">comment or suggestion</label><br>
+    <textarea name="comment" id="textarea" placeholder="enter comment here....."></textarea>
+</div><br>
+    <input id="submit" type="submit" value="submit">
+
+</form>
+</body>
+</html>

@@ -1,0 +1,535 @@
+*{
+    font-family: sans-serif;
+    /* margin: 0; */
+}
+body{
+    background-color: black;
+    color: white;
+}
+.navBarLeft{
+    width: 400px;
+    /* border: 1px solid white; */
+    height: 800px;
+    float: left;
+    position: fixed;
+    
+}
+.navbar{
+    width: 400px;
+    height: 135px;
+    background: #181818;
+    border-radius: 5px;
+    border: 1px solid #181818; 
+    margin: 5px;
+}
+.home{
+    padding: 15px;
+}
+.home a{
+    text-decoration: none;
+    color: #aaaaaa;
+
+}
+.home a:hover{
+    color: white;
+}
+.home i{
+    font-size: 30px;
+}
+.home p{
+    display: inline;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.library{
+    margin: 5px;
+    background: #181818;
+    width: 400px;
+    height: 550px;
+    border: 1px solid #181818;
+    margin: 5px;
+}
+.lib{
+    display: flex;
+    margin: 15px;
+}
+.lib .justifylogo span{
+    margin-left: 15px;
+    font-size: 20px;
+    position: relative;
+    top: -5px;
+}
+.justifylogo i{
+    font-size: 30px;
+}
+.justifylogo a{
+    color: #aaaaaa;
+    text-decoration: none;
+}
+.justifylogo a:hover{
+    color: white;
+}
+.plus{
+    margin: auto;
+    margin-left: 180px;
+}
+.plus i{
+    font-size: 30px;
+}
+.plus a{
+    color: #aaaaaa;
+    text-decoration: none;
+}
+.plus a:hover{
+    color: white;
+}
+.playlist{
+    background: #aaaaaa58;
+    margin: 8px;
+    border-radius: 8px;
+    height: 135px;
+    padding: 2px 0 5px 0;
+}
+.playlist h1{
+    font-size: 20px;
+    margin: 15px 20px;
+    font-weight: bolder;
+}
+.playlist span{
+    margin: 20px;
+    font-size: 15px;
+
+}
+.playlist button{
+    display: block;
+    margin: 19px 20px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.playlist button:hover{
+    width: 155px;
+
+}
+.main{
+    float: right;
+    overflow-y: scroll;
+    
+}
+.zino img{
+    width: 980px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.zino .flow{
+    position: relative;
+    bottom: 550px;
+    left: 25px;
+    width: 33px;
+    height: 33px;
+    margin-right: 5px;
+    border: none;
+    background: rgba(0, 0, 0, 0.58);
+    border-radius: 50px;
+}
+.zino i{
+    color: white;
+    font-size: 15px;
+}
+.zino .flow:hover{
+    cursor: pointer;
+}
+.premium{
+    position: relative;
+    bottom: 550px;
+    margin-left: 520px;
+    border: none;
+    border-radius: 15px;
+    padding: 6px;
+    width: 140px;
+    font-weight: bolder;
+}
+.install{
+    position: relative;
+    bottom: 550px;
+    border: none;
+    border-radius: 15px;
+    padding: 6px;
+    width: 110px;
+    background-color: rgba(0, 0, 0, 0.351);
+    font-weight: bolder;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.google{
+    position: relative;
+    bottom: 550px;
+    margin-right: 5px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    font-weight: bolder;
+    background: rgba(0, 0, 0, 0.491);
+}
+.notification{
+    position: relative;
+    bottom: 550px;
+    margin-right: 5px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    font-weight: bolder;
+    background: rgba(0, 0, 0, 0.491);
+}
+.zino button:hover{
+    cursor: pointer;
+}
+.verified p{
+    position: relative;
+    bottom: 495px;
+    left: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.verified i{
+    color: blue;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.zinoleesky{
+    font-size: 55px;
+    position: relative;
+    bottom: 570px;
+    left: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+.listener{
+    position: relative;
+    bottom: 625px;
+    left: 25px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.music{
+    width: 980px;
+    height: 1800px;
+    position: relative;
+    bottom: 608px;
+    margin-left: 6px;
+    border-top: 1px solid rgba(137, 119, 99, 0.953);
+    border-bottom: 1px solid white;
+    background: linear-gradient( 360deg, black, rgba(86, 67, 44, 0.98));
+}
+.play{
+    width: 60px;
+    height: 60px;
+    margin: 25px;
+    border-radius: 50px;
+    border: none;
+    background: rgb(23, 213, 23);
+}
+.play i{
+    font-size: 30px;
+}
+.play:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 2px rgb(23, 213, 23);
+
+}
+.subNav .follow{
+    background: rgba(255, 255, 255, 0);
+    border: 0.5px solid white;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px; 
+    color: white;
+    position: relative;
+    bottom: 5px;
+    font-weight: bold;
+}
+.follow:hover{
+    cursor: pointer;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px 4px rgba(255, 255, 255, 0);
+}
+.dropbtn{
+    background-color: rgba(255, 255, 255, 0.002);
+    color: #c8c8c8;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    bottom: 3px;
+    font-size: 20px;
+    margin-left: 15px;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #181818;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a{
+    color: white;
+    padding: 8px 10px;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+    margin: 1px;
+}
+.dropdown-content a:hover{
+    background-color: #c8c8c8;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown:hover .dropbtn{
+    color: white;
+}
+.dropdown-content i{
+    margin-right: 10px;
+}
+#report{
+    margin-left: 52px;
+}
+#share{
+    margin-left: 52px;
+}
+.music h1{
+    margin-left: 25px;
+    margin-top: 5px;
+    font-weight: bolder;
+    color: white;
+}
+.music table{
+    /* border: 1px solid white; */
+    /* border-collapse: collapse; */
+    margin-left: 50px;
+}
+.music .noColumn{
+    /* border: 1px solid white; */
+    padding-bottom: 10px;
+    width: 30px;
+    color: #aaaaaa;
+}
+.music .titlecolumn{
+    /* border: 1px solid white; */
+    padding-bottom: 10px;
+    width: 550px;
+    color: white;
+}
+.music .streamcolumn{
+    /* border: 1px solid white; */
+    padding: px;
+    width: 350px;
+    color: #aaaaaa;
+}
+.music .durationcolumn{
+    /* border: 1px solid white; */
+    padding: px;
+    width: 100px;
+    color: #aaaaaa;
+}
+.music table img{
+    width: 50px;
+    border-radius: 10px;
+    vertical-align: middle;
+    margin-right: 10px;
+    
+}
+.music table a{
+    text-decoration: none;
+    color: white;
+}
+.music table a:hover{
+    text-decoration: underline;
+}
+.music table tr:hover{  
+    background-color: #c8c8c806;
+    color: white;
+}
+/* .music .streamcolumn:hover{
+    color: white;
+} */
+.music .more{
+    margin-left: 50px;
+    font-size: 14px;
+    color: #aaaaaa;
+    text-decoration: none;
+}
+.music .more:hover{
+    color: white;
+}
+.artistPick{
+    margin-left: 25px;
+    font-weight: bolder;
+}
+.imgpick{
+    width: 100px;
+    height: 90px;
+    border-radius: 5px;
+    margin-left: 25px;
+    vertical-align: center;
+}
+.smallimg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 58px;
+    margin-left: 5px;
+}
+.posted{
+    position: relative;
+    bottom: 67px;
+    margin-left: 5px;
+    font-size: 13px;
+    color: #aaaaaa;
+}
+.zinoo{
+    position: relative;
+    bottom: 53px;
+    margin-left: 135px;
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+}
+.zinoo:hover{
+    text-decoration: underline;
+}
+.list{
+    position: relative;
+    bottom: 53px;
+    margin-left: 135px;
+    font-size: 13px;
+    color: #aaaaaa;
+}
+.popular{
+    margin-top: 3px;
+    margin-left: 25px;
+}
+.releases-container{
+    display: flex;
+}
+.releases-container img{
+    width: 150px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.releases-container a{
+    text-decoration: none;
+    margin-left: px;
+}
+.lever-container{
+    margin-left: 15px;
+    margin-top: -13px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.lever-container p{
+    font-size: 16px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    color: white;
+}
+.lever-container span{
+    font-size: 13px;
+    color: #aaaaaa;
+}
+.releases-container i{
+    font-size: 15px;
+}
+.lever-container:hover{
+    background: #aaaaaa1e;
+}
+.album{
+    margin-left: 25px;
+    display: inline;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+.album:hover{
+    text-decoration: underline;
+}
+.album-container{
+    width: 190px;
+}
+.album-container img{
+    width: 150px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.album-container a{
+    text-decoration: none;
+    margin-left: px;
+}
+.grit-container{
+    margin-left: 15px;
+    margin-top: -13px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.grit-container p{
+    font-size: 16px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    color: white;
+}
+.grit-container span{
+    font-size: 13px;
+    color: #aaaaaa;
+}
+.album-container i{
+    font-size: 15px;
+}
+.grit-container:hover{
+    background: #aaaaaa1e;
+}
+.disco{
+    position: relative;
+    margin-left: 850px;
+    bottom: 23px;
+    font-size: 14px;
+    color: #aaaaaa;
+    text-decoration: none;
+}
+.disco:hover{
+    text-decoration: underline;
+}
+.single{
+    margin-left: 25px;
+    display: inline;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+.single:hover{
+    text-decoration: underline;
+}
+.dis{
+    position: relative;
+    left: 845px;
+    bottom: 23px;
+    font-size: 14px;
+    color: #aaaaaa;
+    text-decoration: none;
+}
+.dis:hover{
+    text-decoration: underline;
+}
+.vanessa{
+    height: 150px;
+}
